@@ -1,17 +1,17 @@
 # unity1day_RomaTrain
-�t�@�[�K���\���ɉ����ė�Ԃ�����
+ファーガソン曲線に沿って列車が走る
 
-![gif����](train.gif)
+![gif動画](train.gif)
 
-����́AUnity1DayChangeJam�ō�������̂�3D�łł��B
+これは、Unity1DayChangeJamで作ったものの3D版です。
 
-Unity1DayChangeJam��Twitter��ōs��ꂽ�C�x���g�I�Ȃ��̂ł��B
+Unity1DayChangeJamはTwitter上で行われたイベント的なものです。
 https://twitter.com/PonixNews/status/1006100406437437441
 
-�l�͂���2���ڂ�S�����܂����B��Ԃ��ۂ����̂����܂����B
+僕はこの2日目を担当しました。列車っぽいものを作りました。
 https://twitter.com/Romast38/status/1009750209130184704
 
-�t�@�[�K���\���Ȑ��Ƃ���CG�Ŏ��X�g���鎩�R�Ȑ����g���ĘH���𐶐����Ă��܂��B
-�}�[�J�[(�Ԃ��~��)��K���ȏ��ԂŔz�u����ƁA���̊Ԃ�⊮���Ă���܂��B
+ファーガソン曲線というCGで時々使われる自由曲線を使って路線を生成しています。
+マーカー(赤い円柱)を適当な順番で配置すると、その間を補完してくれます。
 
-�t�@�[�K���\���Ȑ��ɕK�v�Ȉ����́A�Ȑ��̎n�_�ƒ[�_���ꂼ��̈ʒu�x�N�g���Ƒ��x�x�N�g���ł��B
+ファーガソン曲線に必要な引数は、曲線の始点と端点それぞれの位置ベクトルと速度ベクトルです。
